@@ -1,0 +1,1 @@
+./enyo/tools/minify.sh -no-alias -output build/build package.js
