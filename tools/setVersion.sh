@@ -1,6 +1,8 @@
 if [ "${PWD##*/}" == "tools" ]; then
 	cd ..;
 fi
+git submodule init
+git submodule update
 cd enyo
 git checkout $1
 cd ..
